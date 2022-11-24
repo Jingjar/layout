@@ -1,0 +1,11 @@
+@include('layout.header')
+<head>
+  @yield('head')
+</head>
+@yield('css')
+<body>
+  @yield('content')
+</body>
+@include('layout.sidebar')
+@include('layout.footer')
+@yield('js')
