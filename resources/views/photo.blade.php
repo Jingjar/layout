@@ -21,9 +21,7 @@
 		<img src='http://unsplash.it/670/410?image=401' data-full='http://unsplash.it/1340/820?image=401' class='m-p-g__thumbs-img' />
 		<img src='http://unsplash.it/620/340?image=623' data-full='http://unsplash.it/1240/680?image=623' class='m-p-g__thumbs-img' />
 		<img src='http://unsplash.it/790/390?image=339' data-full='http://unsplash.it/1580/780?image=339' class='m-p-g__thumbs-img' /> --}}
-    @foreach ($pages as $page)
-      {{$page}}
-    @endforeach
+
 	</div>
 
 	<div class="m-p-g__fullscreen"></div>

@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Sticky Header CSS Transition</title>
+
   <link rel="stylesheet" href="{{ asset('css/header.css') }}">
 
 </head>

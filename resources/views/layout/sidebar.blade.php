@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Sidebar Menu Hover Show/Hide CSS</title>
+
   <link rel="stylesheet" href="{{ asset('css/sidebar.css') }}">
 
 </head>

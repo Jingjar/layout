@@ -1,4 +1,7 @@
 @extends('layout.master')
+@section('head')
+    <title>page1</title>
+@endsection
 @section('css')
     <style>
         .wrapper {

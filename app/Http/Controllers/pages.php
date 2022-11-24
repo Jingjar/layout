@@ -9,15 +9,15 @@ class pages extends Controller
     {
         $pageBox = [];
         $pageBox['pages'] = [
-            "<img src='http://unsplash.it/600/400?image=940' data-full='http://unsplash.it/1200/800?image=940' class='m-p-g__thumbs-img' />",
-            "<img src='http://unsplash.it/640/450?image=906' data-full='http://unsplash.it/1280/900?image=906' class='m-p-g__thumbs-img' />",
-            "<img src='http://unsplash.it/550/420?image=885' data-full='http://unsplash.it/1100/840?image=885' class='m-p-g__thumbs-img' />",
-            "<img src='http://unsplash.it/650/450?image=823' data-full='http://unsplash.it/1300/900?image=823' class='m-p-g__thumbs-img' />",
-            "<img src='http://unsplash.it/600/350?image=815' data-full='http://unsplash.it/1200/700?image=815' class='m-p-g__thumbs-img' />",
-            "<img src='http://unsplash.it/560/500?image=677' data-full='http://unsplash.it/1120/1000?image=677' class='m-p-g__thumbs-img' />",
-            "<img src='http://unsplash.it/670/410?image=401' data-full='http://unsplash.it/1340/820?image=401' class='m-p-g__thumbs-img' />",
-            "<img src='http://unsplash.it/620/340?image=623' data-full='http://unsplash.it/1240/680?image=623' class='m-p-g__thumbs-img' />",
-            "<img src='http://unsplash.it/790/390?image=339' data-full='http://unsplash.it/1580/780?image=339' class='m-p-g__thumbs-img' />",
+            "http://unsplash.it/600/400?image=940",
+            "http://unsplash.it/640/450?image=906",
+            "http://unsplash.it/550/420?image=885",
+            "http://unsplash.it/650/450?image=823",
+            "http://unsplash.it/600/350?image=815",
+            "http://unsplash.it/560/500?image=677",
+            "http://unsplash.it/670/410?image=401",
+            "http://unsplash.it/620/340?image=623",
+            "http://unsplash.it/790/390?image=339",
         ];
         return view('page2', $pageBox);
     }
